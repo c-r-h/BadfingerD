@@ -301,7 +301,7 @@ static void SetSignals( void )
   if( sigaction( SIGPIPE, act, old_act ) < 0 )
     Fail( "Could not ignore SIGPIPE\n" );
   return;
-  }
+  } /* SetSignals */
 
 
 static void Spawn( void )
