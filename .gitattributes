@@ -1,0 +1,3 @@
+*.c kwsub=true
+*.h kwsub=true
+README.* kwsub=true
